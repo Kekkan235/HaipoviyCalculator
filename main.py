@@ -18,6 +18,7 @@ while True:
     1 - Посчитать
     2 - Пойти нафиг  
     3 - cпой песню
+    4 - спой гачи ремикс
     
     ''')
     if action == '1':
@@ -61,4 +62,21 @@ while True:
 Я тот самый стоун
 Протоптал сотни троп
 Мои сирены бомба действуют на все сто''')
-        break
+    elif action =='4':
+        print("Cockой тебе Gachi?")
+        action = input('''
+        1 - ♂️Cock♂️dillac ♂️Gachi♂️ Remix
+        2 - Дико тусим (Right Version) ♂ Gachi Remix
+        ''')
+        if action == '1':
+            print('текста песни нет соси быдло сам пиши')
+        elif action == '2':
+            print('здесь тоже нет текста иди в ебло')
+
+
+
+
+
+
+
+    break
