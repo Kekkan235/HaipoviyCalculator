@@ -1,4 +1,4 @@
-print('*'*40 + 'Калькулятор' + "*"*40)
+print('*'*50+ 'Калькулятор' + "*"*40)
 true_action = ['*', "/", "+", "-"]
 def calculate(x, y, action):
     if action == '-':
@@ -13,7 +13,7 @@ def calculate(x, y, action):
         z = 'error'
     return z
 while True:
-    print(f'чо надо абобус')
+    print(f'чо надо абобус') #Ну тут объяснения излишни
     action = input('''
     1 - Посчитать
     2 - Пойти нафиг  
